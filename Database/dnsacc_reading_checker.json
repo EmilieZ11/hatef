@@ -1,0 +1,97 @@
+[
+{"type":"header","version":"4.9.5","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"dnsacc_reading_checker"},
+{"type":"table","name":"admins","database":"dnsacc_reading_checker","data":
+[
+{"id":"1","user":"yazahra77","pass":"1869","name":"محمد شریفیان"}
+]
+}
+,{"type":"table","name":"mssg_s","database":"dnsacc_reading_checker","data":
+[
+
+]
+}
+,{"type":"table","name":"users","database":"dnsacc_reading_checker","data":
+[
+{"id":"38","user":"zahra","pass":"ss","name":"حسین ستاره ای","regd":"1558346370","admn":"yazahra77","verf":"1"},
+{"id":"30","user":"z","pass":"1398","name":"هومن امیری","regd":"1556302921","admn":"yazahra77","verf":"1"},
+{"id":"33","user":"massomeh","pass":"99)","name":"حسین ستاره ای ","regd":"1556989750","admn":"yazahra77","verf":"1"},
+{"id":"40","user":"zohra","pass":"ss(","name":"حسین ستاره ای ","regd":"1559334514","admn":"yazahra77","verf":"1"},
+{"id":"32","user":"a","pass":"40","name":"علیرضاساربان","regd":"1556911746","admn":"yazahra77","verf":"1"},
+{"id":"37","user":"ali","pass":"1414","name":"علی صیادی پور","regd":"1558323901","admn":"yazahra77","verf":"1"},
+{"id":"36","user":"m","pass":"1414","name":"  علی صیادی پور","regd":"1557403590","admn":"yazahra77","verf":"1"},
+{"id":"24","user":"sa","pass":"s","name":"محمد یاسین سعیدیان","regd":"1556199306","admn":"yazahra77","verf":"1"},
+{"id":"35","user":"15666666666","pass":"80996240","name":"15666666666","regd":"1557285285","admn":"yazahra77","verf":"1"},
+{"id":"26","user":"ha","pass":"h","name":"حامد دارآفرین","regd":"1556199508","admn":"yazahra77","verf":"1"},
+{"id":"27","user":"s","pass":"d","name":"عرفان","regd":"1556209567","admn":"yazahra77","verf":"1"},
+{"id":"45","user":"f","pass":"1234","name":"مهدی صفری","regd":"1559839905","admn":"yazahra77","verf":"1"},
+{"id":"47","user":"v","pass":"1234","name":"مهدی صفری","regd":"1559840211","admn":"yazahra77","verf":"0"},
+{"id":"46","user":"k","pass":"1234","name":"مهدی صفری","regd":"1559839925","admn":"yazahra77","verf":"0"}
+]
+}
+,{"type":"table","name":"user_a","database":"dnsacc_reading_checker","data":
+[
+{"id":"1","date":"1556913403","item_1":"3","item_2":"1","item_3":"3","item_4":"0","item_5":"3","item_6":"2","item_7":"1","item_8":"2","item_9":"2","item_10":"1","item_11":"3","item_12":"3","item_13":"1","item_14":"2","mess":"","seen":"0"}
+]
+}
+,{"type":"table","name":"user_ali","database":"dnsacc_reading_checker","data":
+[
+{"id":"1","date":"1558324023","item_1":"1","item_2":"2","item_3":"1","item_4":"1","item_5":"1","item_6":"2","item_7":"2","item_8":"1","item_9":"2","item_10":"1","item_11":"1","item_12":"2","item_13":"2","item_14":"2","mess":"2=---q-v-d-z---7=","seen":"0"}
+]
+}
+,{"type":"table","name":"user_ha","database":"dnsacc_reading_checker","data":
+[
+{"id":"1","date":"1556199780","item_1":"1","item_2":"1","item_3":"2","item_4":"1","item_5":"1","item_6":"1","item_7":"1","item_8":"1","item_9":"1","item_10":"1","item_11":"2","item_12":"1","item_13":"1","item_14":"2","mess":"","seen":"0"}
+]
+}
+,{"type":"table","name":"user_m","database":"dnsacc_reading_checker","data":
+[
+{"id":"1","date":"1557403881","item_1":"1","item_2":"2","item_3":"1","item_4":"1","item_5":"1","item_6":"3","item_7":"2","item_8":"2","item_9":"1","item_10":"1","item_11":"1","item_12":"3","item_13":"2","item_14":"3","mess":"","seen":"0"}
+]
+}
+,{"type":"table","name":"user_massomeh","database":"dnsacc_reading_checker","data":
+[
+{"id":"1","date":"1556990242","item_1":"1","item_2":"1","item_3":"1","item_4":"1","item_5":"1","item_6":"1","item_7":"2","item_8":"1","item_9":"1","item_10":"1","item_11":"1","item_12":"1","item_13":"1","item_14":"1","mess":"","seen":"1"}
+]
+}
+,{"type":"table","name":"user_s","database":"dnsacc_reading_checker","data":
+[
+{"id":"1","date":"1556982879","item_1":"2","item_2":"1","item_3":"1","item_4":"1","item_5":"1","item_6":"1","item_7":"1","item_8":"1","item_9":"1","item_10":"1","item_11":"1","item_12":"1","item_13":"1","item_14":"2","mess":"","seen":"1"},
+{"id":"2","date":"1557492932","item_1":"1","item_2":"1","item_3":"1","item_4":"1","item_5":"1","item_6":"1","item_7":"1","item_8":"1","item_9":"1","item_10":"1","item_11":"1","item_12":"1","item_13":"1","item_14":"1","mess":"","seen":"0"},
+{"id":"3","date":"1558737391","item_1":"1","item_2":"1","item_3":"1","item_4":"1","item_5":"1","item_6":"1","item_7":"1","item_8":"1","item_9":"1","item_10":"1","item_11":"1","item_12":"1","item_13":"1","item_14":"1","mess":"","seen":"0"},
+{"id":"4","date":"1559904655","item_1":"2","item_2":"2","item_3":"1","item_4":"1","item_5":"1","item_6":"1","item_7":"1","item_8":"1","item_9":"1","item_10":"1","item_11":"1","item_12":"1","item_13":"1","item_14":"0","mess":"0=نماز میخواند ولی بعضی وقتها نمازش قضا میشود ---q-v-d-z---5=تعطیل---q-v-d-z---7=تعطیل ---q-v-d-z---8=تکلیف ندارد ---q-v-d-z---13=دیر میخوابد","seen":"0"},
+{"id":"5","date":"1560604525","item_1":"1","item_2":"1","item_3":"1","item_4":"1","item_5":"1","item_6":"1","item_7":"1","item_8":"1","item_9":"1","item_10":"1","item_11":"1","item_12":"1","item_13":"1","item_14":"1","mess":"","seen":"1"},
+{"id":"6","date":"1561837765","item_1":"2","item_2":"2","item_3":"1","item_4":"1","item_5":"1","item_6":"0","item_7":"0","item_8":"0","item_9":"0","item_10":"1","item_11":"1","item_12":"1","item_13":"1","item_14":"2","mess":"","seen":"0"},
+{"id":"7","date":"1565599217","item_1":"2","item_2":"2","item_3":"1","item_4":"1","item_5":"2","item_6":"0","item_7":"0","item_8":"0","item_9":"0","item_10":"1","item_11":"1","item_12":"1","item_13":"2","item_14":"2","mess":"","seen":"0"},
+{"id":"8","date":"1575124866","item_1":"2","item_2":"2","item_3":"1","item_4":"1","item_5":"3","item_6":"1","item_7":"1","item_8":"1","item_9":"1","item_10":"1","item_11":"1","item_12":"1","item_13":"1","item_14":"2","mess":"","seen":"0"},
+{"id":"9","date":"1582038672","item_1":"2","item_2":"1","item_3":"1","item_4":"1","item_5":"3","item_6":"1","item_7":"1","item_8":"1","item_9":"1","item_10":"1","item_11":"2","item_12":"1","item_13":"2","item_14":"2","mess":"","seen":"0"}
+]
+}
+,{"type":"table","name":"user_sa","database":"dnsacc_reading_checker","data":
+[
+{"id":"1","date":"1556946870","item_1":"2","item_2":"2","item_3":"2","item_4":"1","item_5":"1","item_6":"1","item_7":"1","item_8":"1","item_9":"3","item_10":"1","item_11":"1","item_12":"1","item_13":"2","item_14":"1","mess":"","seen":"0"},
+{"id":"2","date":"1557532749","item_1":"1","item_2":"1","item_3":"1","item_4":"1","item_5":"1","item_6":"1","item_7":"1","item_8":"2","item_9":"2","item_10":"1","item_11":"2","item_12":"1","item_13":"2","item_14":"2","mess":"","seen":"0"},
+{"id":"3","date":"1558280350","item_1":"1","item_2":"2","item_3":"1","item_4":"1","item_5":"1","item_6":"1","item_7":"1","item_8":"2","item_9":"3","item_10":"1","item_11":"2","item_12":"1","item_13":"2","item_14":"2","mess":"","seen":"0"}
+]
+}
+,{"type":"table","name":"user_z","database":"dnsacc_reading_checker","data":
+[
+{"id":"1","date":"1556391452","item_1":"1","item_2":"1","item_3":"1","item_4":"1","item_5":"1","item_6":"3","item_7":"3","item_8":"3","item_9":"3","item_10":"1","item_11":"3","item_12":"1","item_13":"1","item_14":"1","mess":"10=به خاطر باشگاه فرصت نکردند","seen":"1"},
+{"id":"2","date":"1556908766","item_1":"1","item_2":"1","item_3":"1","item_4":"2","item_5":"2","item_6":"1","item_7":"1","item_8":"1","item_9":"1","item_10":"1","item_11":"3","item_12":"2","item_13":"1","item_14":"2","mess":"","seen":"1"},
+{"id":"3","date":"1557518976","item_1":"2","item_2":"1","item_3":"1","item_4":"1","item_5":"2","item_6":"1","item_7":"1","item_8":"1","item_9":"1","item_10":"1","item_11":"3","item_12":"2","item_13":"1","item_14":"1","mess":"","seen":"0"},
+{"id":"4","date":"1558138878","item_1":"2","item_2":"1","item_3":"2","item_4":"1","item_5":"2","item_6":"2","item_7":"2","item_8":"2","item_9":"2","item_10":"1","item_11":"3","item_12":"2","item_13":"1","item_14":"1","mess":"","seen":"0"}
+]
+}
+,{"type":"table","name":"user_zahra","database":"dnsacc_reading_checker","data":
+[
+{"id":"1","date":"1558346654","item_1":"2","item_2":"1","item_3":"0","item_4":"1","item_5":"0","item_6":"1","item_7":"1","item_8":"1","item_9":"1","item_10":"1","item_11":"1","item_12":"0","item_13":"1","item_14":"2","mess":"4=گاهی میشورد","seen":"1"}
+]
+}
+,{"type":"table","name":"user_zohra","database":"dnsacc_reading_checker","data":
+[
+{"id":"1","date":"1559334634","item_1":"1","item_2":"1","item_3":"1","item_4":"1","item_5":"1","item_6":"1","item_7":"1","item_8":"1","item_9":"1","item_10":"1","item_11":"2","item_12":"2","item_13":"1","item_14":"1","mess":"0=میخواند ---q-v-d-z---1=بیدار میشود ---q-v-d-z---2=مرتب میکند---q-v-d-z---10=گاهی اوقات ","seen":"0"},
+{"id":"2","date":"1560010931","item_1":"2","item_2":"1","item_3":"0","item_4":"1","item_5":"2","item_6":"0","item_7":"0","item_8":"0","item_9":"0","item_10":"1","item_11":"0","item_12":"0","item_13":"1","item_14":"1","mess":"","seen":"0"},
+{"id":"3","date":"1560666762","item_1":"1","item_2":"1","item_3":"1","item_4":"1","item_5":"2","item_6":"0","item_7":"0","item_8":"0","item_9":"0","item_10":"1","item_11":"1","item_12":"2","item_13":"1","item_14":"1","mess":"","seen":"0"}
+]
+}
+]

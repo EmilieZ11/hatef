@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/ftbMessenger"
+        android:icon="@drawable/messenger_1_black"
+        android:title="@string/ftbMessenger"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/ftbSelectAll"
+        android:title="@string/ftbSelectAll" />
+
+    <item
+        android:id="@+id/ftbClearAll"
+        android:title="@string/ftbClearAll" />
+
+    <!--<item
+        android:id="@+id/ftbReset"
+        android:title="@string/ftbReset" />-->
+
+    <item
+        android:id="@+id/ftbNight"
+        android:checkable="true"
+        android:checked="false"
+        android:title="@string/tbNight" />
+
+    <item
+        android:id="@+id/ftbUpdate"
+        android:title="@string/tbUpdate" />
+
+    <item
+        android:id="@+id/ftbLogOut"
+        android:title="@string/tbLogOut" />
+</menu>

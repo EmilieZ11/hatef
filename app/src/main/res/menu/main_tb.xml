@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mtbSignUp"
+        android:checkable="true"
+        android:checked="false"
+        android:title="@string/mtbSignUp" />
+
+    <item
+        android:id="@+id/mtbUpdate"
+        android:title="@string/tbUpdate" />
+
+    <item
+        android:id="@+id/mtbNight"
+        android:checkable="true"
+        android:checked="false"
+        android:title="@string/tbNight" />
+</menu>

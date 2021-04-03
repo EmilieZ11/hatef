@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#B18606</color>
+    <color name="colorAccent">@color/colorPrimaryDark</color>
+
+    <!-- GLOBAL -->
+    <color name="transparent">#00000000</color>
+    <color name="colorPrimary2">#FFF</color>
+    <color name="colorPrimary2N">#000</color>
+    <color name="colorPrimaryTooDark">#523E02</color>
+    <color name="mTBV">@color/colorPrimary</color>
+    <color name="mTBTT">@color/colorPrimaryTooDark</color><!--@color/colorPrimary2-->
+    <color name="mTBTTN">@color/colorPrimaryTooDark</color><!--@color/colorPrimary2N-->
+    <color name="mTBSTT">@color/colorPrimaryTooDark</color><!--#F0FFFFFF-->
+    <color name="mTBSTTN">@color/colorPrimaryTooDark</color><!--#BB000000-->
+    <color name="mTBNav">@color/colorPrimaryTooDark</color><!--@color/colorPrimary2-->
+    <color name="mTBNavN">@color/colorPrimaryTooDark</color><!--@color/colorPrimary2N-->
+    <color name="mTBIcons">@color/colorPrimaryTooDark</color><!--@color/colorPrimary2-->
+    <color name="mTBIconsN">@color/colorPrimaryTooDark</color><!--@color/colorPrimary2N-->
+    <color name="etError1">#FFD9D9</color>
+    <color name="etError1N">#860000</color>
+    <color name="spnDropdown1T">@color/colorPrimaryTooDark</color>
+    <color name="spnDropdown1TN">@color/colorPrimary</color>
+    <color name="tbMessengerIcon">@color/colorPrimaryTooDark</color>
+    <color name="tbMsgAlarm">#F10000</color>
+
+    <!-- Main -->
+    <color name="mBodyLogin">@color/colorPrimary2</color>
+    <color name="mBodyLoginN">@color/colorPrimary2N</color>
+    <color name="mLogin">@color/colorPrimary2</color>
+    <color name="mLoginN">@color/colorPrimary2N</color>
+    <color name="mLoginETV">@color/colorPrimary2</color>
+    <color name="mLoginETVN">@color/colorPrimary2N</color>
+    <color name="mLoginETT">#000</color>
+    <color name="mLoginETTN">#FFF</color>
+    <color name="mLoginETTHint">#999</color>
+    <color name="mLoginETTHintN">#CCC</color>
+    <color name="mLTitleV">@color/colorPrimary</color>
+    <color name="mLTitleT">@color/colorPrimaryTooDark</color><!--@color/colorPrimary2-->
+    <color name="mLTitleTN">@color/colorPrimaryTooDark</color><!--@color/colorPrimary2N-->
+    <color name="mLGo">@color/transparent</color>
+    <color name="mLReset">@color/transparent</color>
+    <color name="mLoginBorder">@color/colorPrimaryDark</color><!--#999-->
+    <color name="mLoginBorderN">@color/colorPrimary</color><!--#FFF #CCC-->
+    <color name="mLoginETBorder">@color/mLoginBorder</color>
+    <color name="mLoginETBorderN">@color/mLoginBorderN</color>
+    <color name="mLReme">#000</color>
+    <color name="mLRemeN">#fff</color>
+    <color name="mLRemeBD">@color/colorPrimaryDark</color>
+    <color name="mLRemeBDN">@color/colorPrimary</color>
+    <color name="mLSUExpTV">@color/mLReme</color>
+    <color name="mLSUExpTVN">@color/mLRemeN</color>
+    <color name="mLBorderBottom">@color/mLoginETBorder</color>
+
+    <!-- Form -->
+    <color name="mBody2">@color/colorPrimary2</color>
+    <color name="mBody2N">@color/colorPrimary2N</color>
+    <color name="tvLes">@color/colorPrimaryTooDark</color><!--#000-->
+    <color name="tvLesN">@color/colorPrimary</color><!--#FFF-->
+    <color name="spQuaV">@color/colorPrimaryTooDark</color><!--#444-->
+    <color name="spQuaVN">@color/colorPrimary</color><!--#FFF-->
+    <color name="fLesBG1">#22FFFFFF</color>
+    <color name="fLesBG2">#99FFC107</color><!--#FFFED1 #F0F0F0-->
+    <color name="fLesBG1N">#22000000</color>
+    <color name="fLesBG2N">#52FFC107</color><!--#473900 #252525-->
+    <color name="fMesIV">@color/colorPrimaryTooDark</color>
+    <color name="fMesIVN">@color/colorPrimary</color>
+    <color name="fMesETV">#F0F0F0</color>
+    <color name="fMesETVN">#333</color>
+    <color name="fMesETT">#000</color>
+    <color name="fMesETTN">#FFF</color>
+    <color name="fCbLes">@color/tvLes</color>
+    <color name="fCbLesN">@color/tvLesN</color>
+
+    <!-- Admin -->
+    <color name="aUClT">@color/colorPrimaryTooDark</color>
+    <color name="aWClT">@color/colorPrimaryTooDark</color>
+    <color name="aTvPrp">@color/colorPrimaryTooDark</color>
+    <color name="aDeleteUser">@color/colorPrimaryTooDark</color>
+    <color name="aUpdateList">@color/colorPrimaryTooDark</color>
+    <color name="aVUsrBG">#E22</color>
+    <color name="aUsrNotVerf">#D1D1D1</color>
+    <color name="aTlWeek">@color/colorPrimary</color>
+    <color name="aTvWLesson">@color/colorPrimaryTooDark</color>
+    <color name="aTvWScore">@color/colorPrimaryTooDark</color>
+    <color name="aTvWTitle">@color/colorPrimaryTooDark</color>
+    <color name="aVWSepLine1">@color/colorPrimaryTooDark</color>
+    <color name="aIvWClose">@color/colorPrimaryTooDark</color>
+    <color name="aTvNew">#E22</color>
+
+    <!-- Messenger -->
+    <color name="sPostCl">@color/colorPrimary</color>
+    <color name="sNewETV">@color/transparent</color>
+    <color name="sNewETT">@color/colorPrimaryTooDark</color>
+    <color name="sNewETTN">#FFF</color>
+    <color name="clInMess1">@color/colorPrimary</color>
+    <color name="clInMess2">#E9AF04</color>
+    <color name="sTvMess1T">#000</color>
+    <color name="sTvMess1TN">#FFF</color>
+    <color name="sTvMess2T">#000</color>
+    <color name="sTvMess2TN">#FFF</color>
+    <color name="sSeen0">@color/colorPrimaryTooDark</color>
+    <color name="sSeen0N">#FFF</color>
+    <color name="sNewETAft">@color/colorPrimaryTooDark</color>
+    <color name="sMessBG">#00BCD4</color>
+    <color name="sToolbar2">#FFCB41</color>
+    <color name="sTB2Icons">@color/colorPrimaryTooDark</color>
+
+    <!--<color name=""></color>-->
+</resources>

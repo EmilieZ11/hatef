@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="fGo" type="id" />
+    <item name="fReset" type="id" />
+    <item name="aClWeek" type="id" />
+    <item name="aTvWTitle" type="id" />
+</resources>

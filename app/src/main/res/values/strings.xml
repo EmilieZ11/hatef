@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">هاتف</string>
+
+    <!-- GLOBAL -->
+    <string name="ourCloudFolder">http://ifaco.org/android/reading_checker/</string>
+    <string name="tbNight">حالت شب</string>
+    <string name="tbLogOut">خروج از حساب</string>
+    <string name="tbUpdate">بررسی برای بروزرسانی</string>
+    <string name="exit">آیا می خواهید از برنامه خارج شوید؟</string>
+    <string name="exitAcc">آیا از خروج از حساب خود مطمئن هستید؟</string>
+    <string name="yes1">بله</string>
+    <string name="no1">خیر</string>
+    <string name="cancel1">لغو</string>
+    <string name="ok1">تایید</string>
+    <string name="wait1">لطفا صبر کنید&#8230;</string>
+    <string name="askUpdate">آیا مایل به دریافت نسخۀ جدید هستید؟</string>
+    <string name="upToDate">نرم افزار شما بروز می باشد.</string>
+    <string name="updating">در حال بروزرسانی، لطفا صبر کنید&#8230;</string>
+    <string name="updateVer1">&#160;(&#160;</string>
+    <string name="updateVer2">&#160;)</string>
+    <string name="updateVer3">&#160;- نسخه فعلی:&#160;</string>
+    <string name="updateExpln">فایل بروزرسانی باید در کارت حافظه دانلود شود.</string>
+    <string name="error1">فقط حروف کوچک انگلیسی، اعداد و «_» مجاز می باشد.</string>
+    <string name="error2">لطفاً فرم را تکمیل نمایید.</string>
+    <string name="error3">لطفاً وضعیت اینترنت خود را بررسی کنید.</string>
+    <string name="error4">ورود به حساب با مشکل مواجه شد!</string>
+    <string name="error5">نام کاربری یا رمز عبور اشتباه می باشد.</string>
+    <string name="error6">رمز عبور را بدرستی تکرار نکردید.</string>
+    <string name="error7">حساب دیگری با چنین نام کاربری ثبت شده است!</string>
+    <string name="error8">اطلاعات مورد نیاز مخدوش می باشند!</string>
+    <string name="error9">درج اطلاعات جدید با مشکل مواجه شد!</string>
+    <string name="error10">شما اطلاعات این هفته تان را از قبل درج کرده اید.</string>
+    <string name="error11">ذخیره کردن نامی که وارد کرده اید، دشوار می باشد!</string>
+    <string name="error12">بررسی برای بروزرسانی با مشکل مواجه شد!</string>
+    <string name="error13">ذخیره کردن رمزعبوری که وارد کرده اید، دشوار می باشد!</string>
+    <string name="error14">فایل بروزرسانی دانلود نشد!</string>
+    <string name="error15">کارت حافظه در دسترس نمی باشد!</string>
+    <string name="error16">برنامه مجاز به دانلود نمی باشد!</string>
+    <string name="error17">رمز عبور اشتباه می باشد.</string>
+    <string name="error18">حساب شما در انتظار تأیید می باشد.</string>
+    <string-array name="months">
+        <item>فروردین</item>
+        <item>اردیبهشت</item>
+        <item>خرداد</item>
+        <item>تیر</item>
+        <item>مرداد</item>
+        <item>شهریور</item>
+        <item>مهر</item>
+        <item>آبان</item>
+        <item>آذر</item>
+        <item>دی</item>
+        <item>بهمن</item>
+        <item>اسفند</item>
+    </string-array>
+    <!--<string-array name="months">
+        <item>ژانویه</item>
+        <item>فوریه</item>
+        <item>مارس</item>
+        <item>آپریل</item>
+        <item>مه</item>
+        <item>ژوئن</item>
+        <item>ژولای</item>
+        <item>آگوست</item>
+        <item>سپتامبر</item>
+        <item>اکتبر</item>
+        <item>نوامبر</item>
+        <item>دسامبر</item>
+    </string-array>-->
+    <string name="now">الآن</string>
+    <string name="toExit">برای خروج دوباره ضربه بزنید.</string>
+
+    <!-- Main -->
+    <string name="mLTitle">ورود</string>
+    <string name="mLTitleSU">ثبت نام</string>
+    <string name="mLUserH">نام کاربری*</string>
+    <string name="mLPassH">*رمز عبور</string>
+    <string name="mLRemeH">مرا به یاد داشته باش</string>
+    <string name="mtbSignUp">ثبت نام</string>
+    <string name="mLNameH">نام و نام خانوادگی</string>
+    <string name="mLRPasH">*تکرار رمز عبور</string>
+    <string name="mLSUExpTV">@string/mtbSignUp</string>
+    <string name="mWelcome">خوش آمدید،&#160;</string>
+    <string name="mWelcome2">!</string>
+    <string name="mAskSignUp">آیا مایل به ثبت نام با این مشخصات هستید؟</string>
+    <string name="mtbSubtitle">ورود به حساب</string>
+    <string-array name="mAdmnNames">
+        <item>محمد شریفیان</item>
+    </string-array>
+    <string-array name="mAdmnUsers">
+        <item>yazahra77</item>
+    </string-array>
+
+    <!-- Form -->
+    <string-array name="lessons">
+        <item>نماز صبح</item>
+        <item>بیداری</item>
+        <item>مرتب کردن رختخواب</item>
+        <item>نماز ظهر</item>
+        <item>شستن جوراب</item>
+        <item>مطالعه دروس و انجام تکالیف 1</item>
+        <item>مطالعه دروس و انجام تکالیف 2</item>
+        <item>مطالعه دروس و انجام تکالیف 3</item>
+        <item>مطالعه دروس و انجام تکالیف 4</item>
+        <item>نماز مغرب</item>
+        <item>یک جرعه کتاب</item>
+        <item>مسواک</item>
+        <item>محاسبه</item>
+        <item>خواب</item>
+    </string-array>
+    <string-array name="buttons">
+        <item> </item>
+        <item>خوب</item>
+        <item>متوسط</item>
+        <item>ضعیف</item>
+    </string-array>
+    <string name="ftbSelectAll">انتخاب همه</string>
+    <string name="ftbClearAll">از قلم انداختن همه</string>
+    <string name="ftbReset">شروع دوباره</string>
+    <string name="fSelect">کیفیت مورد نظر را انتخاب کنید&#8230;</string>
+    <string name="fAsk">آیا از فرستادن این فرم مطمئن هستید؟ دیگر قادر به ویرایش این اطلاعات نخواهید بود.</string>
+    <string name="fAskReset">آیا فرم از نو راه اندازی شود؟</string>
+    <string name="fDone">درج اطلاعات جدید با موفقیت انجام شد!</string>
+    <string name="fDisabled">شما فرم مربوط به هفتۀ گذشته را تکمیل کرده اید.</string>
+    <string name="ftbSubtitle">برنامه روزانه</string>
+    <string name="fNoPerm">الآن شما باید فرم مربوط به هفتۀ گذشته را تکمیل کنید.</string>
+    <string name="fMessTitle">توضیحات</string>
+    <string name="fMessYes">ذخیره</string>
+    <string name="fError1">ذخیره کردن توضیحاتی که وارد کرده اید، دشوار می باشد!</string>
+    <string name="fError2">خواندن توضیحاتی که وارد کرده بودید، دشوار می باشد!</string>
+    <string name="ftbMessenger">تماس با مدیر</string>
+
+    <!-- Admin -->
+    <string name="atbSubtitle">فهرست کاربران</string>
+    <string name="atbDeleteUser">حذف کاربر</string>
+    <string name="atbUpdateList">بروزرسانی فهرست</string>
+    <string name="aError1">بدست آوردن اطلاعات با مشکل مواجه شد!</string>
+    <string name="aError2">چنین کاربری در سیستم موجود نمی باشد!</string>
+    <string name="aError3">اطلاعات به دست آمده ناخوانا می باشند!</string><!--USE THIS!!!-->
+    <string name="aError4">حذف کاربر با مشکل مواجه شد!</string>
+    <string name="aError5">بروزرسانی فهرست با مشکل مواجه شد!</string>
+    <string name="aError6">عملیات با مشکل مواجه شد!</string>
+    <string name="aEmpty">این کاربر هیچ اطلاعات دیگری را ثبت نکرده است.</string>
+    <string name="aRecords">&#160;گزارش ثبت شده</string>
+    <string name="aScores">جمع نمرات: &#160;</string>
+    <string name="aDropped">کاربر و اطلاعاتی که ثبت کرده بود، با موفقیت حذف گردیدند.</string>
+    <string name="aDeleteUserT">حذف کاربر</string>
+    <string name="aDeleteUser">آیا از حذف همیشگی این کاربر بهمراه تمام مشخصات و اطلاعات ثبت شده او مطمئنید؟ برای احتیاط لطفا رمز عبور خود را دوباره وارد کنید:</string>
+    <string name="aTvUsrSep">.&#160;</string>
+    <string name="aTvUsrBfUsr">&#160;(</string>
+    <string name="aTvUsrAfUsr">\@)</string>
+    <string name="aListUpdated">بروزرسانی فهرست انجام شد.</string>
+    <string name="atbMessenger">تماس با کاربر</string>
+    <string name="amorInfo">نمایش اطلاعات</string>
+    <string name="amorDelete">حذف</string>
+    <string name="amorChat">پیام دادن</string>
+    <string name="aVerified">کاربر با موفقیت تأیید شد.</string>
+    <string name="aTvNew">جدید</string>
+
+    <!-- Messenger -->
+    <string name="stbSubtitleU">تماس با مدیر</string>
+    <string name="stbSubtitleA">تماس با کاربر</string>
+    <string name="mssCopy">کپی</string>
+    <string name="mssDelete">حذف</string>
+    <string name="mssShare">به اشتراک گذاری</string>
+    <string name="stbCheck">بروزرسانی چت</string>
+    <string name="sError1">بروزرسانی چت با مشکل مواجه شد!</string>
+    <string name="sError2">بدست آوردن اطلاعات با مشکل مواجه شد!</string>
+    <string name="sError3">چنین مخاطبی در سیستم موجود نمی باشد.</string>
+    <string name="sError4">ارسال پیام با مشکل مواجه شد!</string>
+    <string name="sError5">ذخیره کردن تغییرات جدید با مشکل مواجه شد!</string>
+    <string name="sError6">حذف پیام(ها) با مشکل مواجه شد!</string>
+    <string name="sError7">حذف پیام(ها) ممکن نبود.</string>
+    <string name="sEmpty">هیچ گفتگویی ثبت نشده است.</string>
+
+    <!--<string name=""></string>-->
+</resources>

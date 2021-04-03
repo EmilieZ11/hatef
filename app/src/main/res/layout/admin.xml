@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/aBody"
+    style="@style/Body1"
+    tools:context="org.ifaco.hatef.Admin">
+
+    <View
+        android:id="@+id/aMotor"
+        style="@style/Motor1"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/aToolbar"
+        style="@style/Toolbar1"
+        app:layout_constraintBottom_toTopOf="@id/aBody2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:maxButtonHeight="?attr/actionBarSize"
+        app:navigationIcon="@drawable/back_3_white"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:subtitle="@string/atbSubtitle"
+        app:subtitleTextColor="@color/mTBSTT"
+        app:titleTextColor="@color/mTBTT" />
+
+    <View
+        android:id="@+id/aBG"
+        style="@style/BG1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.684"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/aBody2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/aToolbar">
+
+        <ScrollView
+            android:id="@+id/aSV2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/aLL2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp" />
+        </ScrollView>
+
+        <ScrollView
+            android:id="@+id/aSV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/aLL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp" />
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

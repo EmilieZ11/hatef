@@ -1,0 +1,153 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"><!--Theme.AppCompat.Light.DarkActionBar-->
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- GLOBAL -->
+    <style name="Body1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/mBodyLogin</item>
+        <item name="android:layoutDirection">rtl</item>
+        <item name="android:textDirection">rtl</item>
+    </style>
+
+    <style name="Motor1">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="Toolbar1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">@color/mTBV</item>
+        <item name="android:theme">@style/mToolbar</item>
+    </style>
+
+    <style name="BG1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:background">@drawable/bg_layer_1_orange</item>
+        <item name="android:alpha">0.2</item>
+    </style>
+
+    <!-- Main -->
+    <style name="mToolbar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorControlNormal">@color/mTBIcons</item>
+        <!-- colour of the button of overflow menu -->
+        <item name="android:textColorSecondary">@color/mTBIcons</item>
+        <!-- colour of submenus in the overflow menu -->
+    </style>
+
+    <style name="mToolbarN" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorControlNormal">@color/mTBIcons</item>
+        <item name="android:textColorSecondary">@color/mTBIcons</item>
+    </style>
+
+    <style name="mLoginET">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/mLoginETV</item>
+        <item name="android:paddingStart">13dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingEnd">13dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:textColor">@color/mLoginETT</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColorHint">@color/mLoginETTHint</item>
+    </style>
+
+    <style name="mLoginETBorder">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">17dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_marginEnd">17dp</item>
+        <item name="android:background">@color/mLoginETBorder</item>
+        <item name="android:padding">1dp</item>
+    </style>
+
+    <!-- Form -->
+    <style name="mTVLes">
+        <item name="android:textColor">@color/tvLes</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="fSpnDD1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingEnd">5dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+
+    <!-- Admin -->
+    <style name="aTvUsr">
+        <item name="android:textColor">@color/aUClT</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="aTvPrp">
+        <item name="android:textColor">@color/aTvPrp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="aTvWek">
+        <item name="android:textColor">@color/aWClT</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+
+    <style name="aTvMSc">
+        <item name="android:textColor">@color/aWClT</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+
+    <style name="aTvScr">
+        <item name="android:textColor">@color/aWClT</item>
+        <item name="android:textSize">27sp</item>
+    </style>
+
+    <style name="aTvWLesson">
+        <item name="android:textColor">@color/aTvWLesson</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="aTvWScore">
+        <item name="android:textColor">@color/aTvWScore</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="aTvWTitle">
+        <item name="android:textColor">@color/aTvWTitle</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="aTvNew">
+        <item name="android:textColor">@color/aWClT</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+
+    <!-- Messenger -->
+    <style name="sTvMess">
+        <item name="android:textSize">19sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+    </style>
+
+    <style name="sTvDate">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <!--<style name="">
+        <item name=""></item>
+    </style>-->
+</resources>

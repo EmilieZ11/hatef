@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sBody"
+    style="@style/Body1"
+    tools:context=".Messenger">
+
+    <View
+        android:id="@+id/sMotor"
+        style="@style/Motor1"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/sToolbars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/sToolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/sToolbar2"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/sTB2Close"
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@drawable/square_1_tp_to_white_alpha_xml"
+                android:padding="19dp"
+                android:src="@drawable/cross_1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <HorizontalScrollView
+                android:id="@+id/sTB2HSV"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+                <LinearLayout
+                    android:id="@+id/sTB2LL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingStart="?attr/actionBarSize">
+
+                    <ImageView
+                        android:id="@+id/sTB2SelectAll"
+                        android:layout_width="?attr/actionBarSize"
+                        android:layout_height="?attr/actionBarSize"
+                        android:background="@drawable/square_1_tp_to_white_alpha_xml"
+                        android:padding="15dp"
+                        android:src="@drawable/checkbox_1_black_checked"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/sTB2AvoidAll"
+                        android:layout_width="?attr/actionBarSize"
+                        android:layout_height="?attr/actionBarSize"
+                        android:background="@drawable/square_1_tp_to_white_alpha_xml"
+                        android:padding="15dp"
+                        android:src="@drawable/checkbox_1_black"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/sTB2Delete"
+                        android:layout_width="?attr/actionBarSize"
+                        android:layout_height="?attr/actionBarSize"
+                        android:background="@drawable/square_1_tp_to_white_alpha_xml"
+                        android:padding="12dp"
+                        android:src="@drawable/recycle_bin_1_black"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </LinearLayout>
+            </HorizontalScrollView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/sToolbar"
+            style="@style/Toolbar1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:maxButtonHeight="?attr/actionBarSize"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:subtitle="@string/stbSubtitleU"
+            app:subtitleTextColor="@color/mTBSTT"
+            app:titleTextColor="@color/mTBTT" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:id="@+id/sBG"
+        style="@style/BG1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.684"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/sBody2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@id/sPostCl"
+        app:layout_constraintTop_toBottomOf="@id/sToolbars">
+
+        <ScrollView
+            android:id="@+id/sSV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <LinearLayout
+                android:id="@+id/sLL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/sPostCl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/sPostCl"
+        android:minHeight="55dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <!--<ImageView
+            android:id="@+id/sNewETBef"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/square_1_tp_to_white_alpha_xml"
+            android:padding="8dp"
+            android:src="@drawable/back_3_white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />-->
+
+        <EditText
+            android:id="@+id/sNewET"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="3dp"
+            android:background="@color/sNewETV"
+            android:gravity="center_vertical"
+            android:maxHeight="222dp"
+            android:maxLength="2530"
+            android:minHeight="48dp"
+            android:textColor="@color/sNewETT"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/sNewETAft"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/sNewETAft"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/square_1_tp_to_white_alpha_xml"
+            android:padding="13dp"
+            android:src="@drawable/send_1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--<View
+        android:id="@+id/sCheckMotor"
+        android:layout_width="33dp"
+        android:layout_height="7dp"
+        android:background="@color/colorPrimaryTooDark"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>

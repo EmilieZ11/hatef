@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/atbMessenger"
+        android:enabled="false"
+        android:icon="@drawable/messenger_1_black"
+        android:title="@string/atbMessenger"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/atbUpdateList"
+        android:icon="@drawable/reload_1_gray"
+        android:title="@string/atbUpdateList"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/atbDeleteUser"
+        android:enabled="false"
+        android:icon="@drawable/recycle_bin_1_black"
+        android:title="@string/atbDeleteUser"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/atbNight"
+        android:checkable="true"
+        android:checked="false"
+        android:title="@string/tbNight" />
+
+    <item
+        android:id="@+id/atbUpdate"
+        android:title="@string/tbUpdate" />
+
+    <item
+        android:id="@+id/atbLogOut"
+        android:title="@string/tbLogOut" />
+</menu>

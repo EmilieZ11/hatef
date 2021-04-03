@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/stbCheck"
+        android:icon="@drawable/reload_1_gray"
+        android:title="@string/stbCheck"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/stbNight"
+        android:checkable="true"
+        android:checked="false"
+        android:title="@string/tbNight" />
+</menu>
